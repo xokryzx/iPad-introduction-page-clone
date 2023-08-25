@@ -3,6 +3,7 @@
 }
 
 .inner {
+  position: relative;
   max-width: 1020px;
   margin: auto;
 }
@@ -16,6 +17,12 @@
 .menu-list {
   display: flex;
   position: relative;
+  transition: 0.4s;
+}
+
+.searching .menu-list {
+  opacity: 0;
+  transform: scale(0.7);
 }
 
 .menu-link {
@@ -135,4 +142,138 @@
 
 .cart-menu__link:hover {
   text-decoration: underline;
+}
+
+.search-container {
+  visibility: hidden;
+  width: 100%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  opacity: 0;
+  transition: 0.4s;
+}
+
+.searching .search-container {
+  visibility: visible;
+  opacity: 1;
+  transition-delay: 0.2s;
+}
+
+.search {
+  position: relative;
+  max-width: 680px;
+  margin: auto;
+}
+
+.shadow {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.textfield {
+  position: relative;
+}
+
+.search-input {
+  width: 100%;
+  height: 44px;
+  padding: 0 44px;
+
+  color: #fff;
+  font-size: 17px;
+
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.search-icon {
+  width: 40px;
+  height: 44px;
+
+  background-image: url(../images/header-search.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  opacity: 0.4;
+}
+
+.search-closer {
+  width: 40px;
+  height: 44px;
+
+  background-image: url(../images/search-closer.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+.search-closer:hover {
+  opacity: 1;
+}
+
+.autocomplete {
+  width: 100%;
+  padding: 26px 40px 20px;
+
+  background-color: #fff;
+  border-radius: 0 0 18px 18px;
+
+  position: absolute;
+  top: 44px;
+  left: 0;
+}
+
+.search-title {
+  font-size: 12px;
+  color: #6e6e6e;
+  margin-bottom: 12px;
+}
+
+.search-menu__link {
+  display: block;
+  margin: 0 -14px;
+  padding: 10px 0 10px 30px;
+
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.search-menu__link:hover {
+  background-color: #f5f5f5;
+  color: #0071e3;
+}
+
+.search-input,
+.search-icon,
+.search-title,
+.search-menu__list {
+  transform: translate(100px, 0);
+  transition: 0.6s;
+}
+
+.searching .search-input,
+.searching .search-icon,
+.searching .search-title,
+.searching .search-menu__list {
+  transform: translate(0, 0);
+  transition-delay: 0.2s;
 }
