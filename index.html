@@ -31,6 +31,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
 
     <link rel="stylesheet" href="./css/main.css" />
+
+    <script defer src="./js/header.js"></script>
   </head>
   <body>
     <header class="main-header">
@@ -48,7 +50,20 @@
           <li class="menu-list"><a href="javascript:void(0)" class="menu-link">액세서리</a></li>
           <li class="menu-list"><a href="javascript:void(0)" class="menu-link">고객지원</a></li>
           <li class="menu-list"><a href="javascript:void(0)" class="menu-link search-link">검색</a></li>
-          <li class="menu-list"><a href="javascript:void(0)" class="menu-link cart-link">장바구니</a></li>
+          <li class="menu-list cart-button">
+            <a href="javascript:void(0)" class="menu-link cart-link">장바구니</a>
+            <div class="cart-container">
+              <div class="cart-arrow"></div>
+              <div class="cart-message">장바구니가 비어 있습니다.</div>
+              <ul class="cart-menu">
+                <li class="cart-menu__list"><a href="javascript:void(0)" class="cart-menu__link">장바구니</a></li>
+                <li class="cart-menu__list"><a href="javascript:void(0)" class="cart-menu__link">저장된 항목</a></li>
+                <li class="cart-menu__list"><a href="javascript:void(0)" class="cart-menu__link">주문</a></li>
+                <li class="cart-menu__list"><a href="javascript:void(0)" class="cart-menu__link">계정</a></li>
+                <li class="cart-menu__list"><a href="javascript:void(0)" class="cart-menu__link">로그인</a></li>
+              </ul>
+            </div>
+          </li>
         </ul>
       </div>
     </header>
