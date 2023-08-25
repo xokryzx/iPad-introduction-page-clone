@@ -2,12 +2,6 @@
   background-color: #3a3a3a;
 }
 
-.inner {
-  position: relative;
-  max-width: 1020px;
-  margin: auto;
-}
-
 .menu {
   display: flex;
   justify-content: space-between;

@@ -1,4 +1,5 @@
 @import './components/header.css';
+@import './components/navigation.css';
 
 * {
   box-sizing: border-box;
@@ -21,4 +22,38 @@ body {
 a {
   color: #1d1d1d;
   text-decoration: none;
+}
+
+.inner {
+  position: relative;
+  max-width: 1020px;
+  margin: auto;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 24px;
+  padding: 0 10px;
+
+  outline: none;
+  border: none;
+  border-radius: 100px;
+
+  color: #fff;
+  font-size: 11px;
+  line-height: 1;
+
+  background-color: #0071e3;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 0.7;
+}
+
+.button:focus {
+  box-shadow: 0 0 0 4px #81b9f1;
 }
