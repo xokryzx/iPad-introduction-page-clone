@@ -1,7 +1,17 @@
+@import './components/header.css';
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-size: 16px;
   font-family: 'Roboto', 'Noto Sans KR', sans-serif;
 
   line-height: 1;
   word-break: keep-all;
+}
+
+a {
+  text-decoration: none;
 }
