@@ -1,0 +1,105 @@
+.camera {
+  margin-top: 303px;
+}
+
+.stage {
+  position: relative;
+}
+
+.stage-headline {
+  width: 650px;
+  height: 450px;
+
+  background-image: url(../../images/camera-headline.png);
+  transform: translate(-25px, 0);
+}
+
+.stage-info {
+  position: absolute;
+  top: 150px;
+  right: 0;
+}
+
+.icon--center-stage {
+  background-image: url(../../images/sprite/sprite-center-stage.png);
+}
+
+.stage-figures {
+  height: 770px;
+  margin-top: 24px;
+}
+
+.stage-figure {
+  transform: translate(90px, 0);
+}
+
+.stage-video {
+  position: absolute;
+  top: 36px;
+  left: 76px;
+
+  -webkit-mask-image: url(../../images/camera-video-mask.png);
+  mask-image: url(../../images/camera-video-mask.png);
+}
+
+.controller--play,
+.controller--pause {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  color: var(--color-link);
+  transform: translate(428px, -134px) rotate(-3deg);
+  cursor: pointer;
+}
+
+.controller--play:hover,
+.controller--pause:hover {
+  text-decoration: underline;
+}
+
+.controller--play.hide,
+.controller--pause.hide {
+  display: none;
+}
+
+.controller-image {
+  width: 20px;
+  margin-top: auto -2px;
+}
+
+.stage-caption {
+  width: 130px;
+  height: 110px;
+
+  background-image: url(../../images/camera-hardware-caption.png);
+  transform: translate(-116px, 383px);
+}
+
+.icon--front-camera {
+  background-image: url(../../images/sprite/sprite-front-camera.png);
+}
+
+.icon--back-camera {
+  background-image: url(../../images/sprite/sprite-back-camera.png);
+}
+
+.icon--scan {
+  background-image: url(../../images/sprite/sprite-scan.png);
+}
+
+.edit-figures {
+  height: 910px;
+}
+
+.edit-figure {
+  transform: translate(20px, 0);
+}
+
+.edit-caption {
+  width: 130px;
+  height: 47px;
+
+  background-image: url(../../images/camera-edit-caption.png);
+  transform: translate(27px, 905px);
+}

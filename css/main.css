@@ -3,6 +3,7 @@
 @import './components/hero.css';
 @import './components/power.css';
 @import './components/display.css';
+@import './components/camera.css';
 @import './components/sprite.css';
 
 * {
@@ -60,10 +61,8 @@ p {
 
 .section-inner {
   position: relative;
-
-  max-width: 980px;
+  max-width: 990px;
   margin: auto;
-  padding: 0 20px;
 }
 
 .button {
