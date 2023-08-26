@@ -193,7 +193,7 @@
   width: 40px;
   height: 44px;
 
-  background-image: url(../images/header-search.svg);
+  background-image: url(../../images/header-search.svg);
   background-repeat: no-repeat;
   background-position: center;
 
@@ -208,7 +208,7 @@
   width: 40px;
   height: 44px;
 
-  background-image: url(../images/search-closer.svg);
+  background-image: url(../../images/search-closer.svg);
   background-repeat: no-repeat;
   background-position: center;
 
