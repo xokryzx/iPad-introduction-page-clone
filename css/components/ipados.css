@@ -1,0 +1,61 @@
+.ipados {
+  margin-top: 212px;
+}
+
+.ipados-headline {
+  width: 530px;
+  height: 400px;
+  margin: auto;
+  background-image: url(../../images/ipados-headline.png);
+}
+
+.infos.ipados-infos {
+  margin-top: 44px;
+  align-items: flex-end;
+}
+
+.ipados-figures {
+  display: flex;
+  height: 782px;
+}
+
+.ipados-figure {
+  position: relative;
+  flex-grow: 1;
+}
+
+.figure-split-view {
+  transform: translate(-205px, -312px);
+}
+
+.figure-split-view-caption {
+  width: 163px;
+  height: 53px;
+
+  background-image: url(../../images/ipados-split-view-caption.png);
+  transform: translate(200px, -38px);
+}
+
+.figure-widgets {
+  transform: translate(237px, 43px);
+}
+
+.figure-widgets-caption {
+  width: 161px;
+  height: 46px;
+
+  background-image: url(../../images/ipados-widgets-caption.png);
+  transform: translate(257px, 497px);
+}
+
+.figure-quick-note {
+  transform: translate(-625px, 232px);
+}
+
+.figure-quick-note-caption {
+  width: 82px;
+  height: 97px;
+
+  background-image: url(../../images/ipados-quick-note-caption.png);
+  transform: translate(511px, 470px);
+}

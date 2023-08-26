@@ -6,6 +6,7 @@
 @import './components/camera.css';
 @import './components/wireless.css';
 @import './components/accessories.css';
+@import './components/ipados.css';
 @import './components/sprite.css';
 
 * {
