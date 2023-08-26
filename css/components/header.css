@@ -1,5 +1,7 @@
 .main-header {
   background-color: #3a3a3a;
+  position: relative;
+  z-index: 9;
 }
 
 .menu {
