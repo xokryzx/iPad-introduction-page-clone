@@ -5,6 +5,7 @@
 @import './components/display.css';
 @import './components/camera.css';
 @import './components/wireless.css';
+@import './components/accessories.css';
 @import './components/sprite.css';
 
 * {
@@ -141,6 +142,11 @@ p {
 
 .info {
   max-width: 330px;
+  margin-bottom: 24px;
+}
+
+.info--large {
+  max-width: 410px;
   margin-bottom: 24px;
 }
 
