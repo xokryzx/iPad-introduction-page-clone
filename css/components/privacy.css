@@ -1,0 +1,43 @@
+.privacy {
+  margin-top: 238px;
+}
+
+.privacy-headline {
+  width: 482px;
+  height: 237px;
+  margin-left: auto;
+
+  background-image: url(../../images/privacy-headline.png);
+  transform: translate(57px, 0);
+
+  position: relative;
+  z-index: 1;
+}
+
+.privacy-infos {
+  align-items: flex-end;
+  margin-top: 38px;
+
+  position: relative;
+  z-index: 1;
+}
+
+.privacy-figures {
+  transform: translate(-215px, -500px);
+}
+
+.privacy-caption__apple-id {
+  width: 170px;
+  height: 26px;
+
+  background-image: url(../../images/privacy-caption-apple-id.png);
+  transform: translate(195px, -13px);
+}
+
+.privacy-caption__touch-id {
+  width: 150px;
+  height: 31px;
+
+  background-image: url(../../images/privacy-caption-touch-id.png);
+  transform: translate(533px, 485px);
+}

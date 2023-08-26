@@ -8,6 +8,7 @@
 @import './components/accessories.css';
 @import './components/ipados.css';
 @import './components/apps.css';
+@import './components/privacy.css';
 @import './components/sprite.css';
 
 * {
