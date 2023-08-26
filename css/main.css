@@ -1,6 +1,8 @@
 @import './components/header.css';
 @import './components/navigation.css';
 @import './components/hero.css';
+@import './components/power.css';
+@import './components/sprite.css';
 
 * {
   box-sizing: border-box;
@@ -99,8 +101,13 @@ p {
   text-indent: -9999px;
 }
 
+.feature {
+  display: flex;
+}
+
 .figures-container {
   position: relative;
+  flex-grow: 1;
 }
 
 .figure,
@@ -114,6 +121,39 @@ p {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.infos {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.infos.infos--center {
+  justify-content: center;
+}
+
+.infos.infos--end {
+  justify-content: flex-end;
+}
+
+.info {
+  max-width: 330px;
+  margin-bottom: 24px;
+}
+
+.info-icon {
+  width: 100px;
+  height: 100px;
+  margin: 0 0 -15px -30px;
+  animation: sprite-icon 3s steps(1) infinite;
+}
+
+.info-desc {
+  font-size: 21.5px;
+  font-weight: 600;
+  line-height: 1.5;
 }
 
 .links {

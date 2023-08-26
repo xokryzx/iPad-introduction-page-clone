@@ -1,0 +1,83 @@
+.power {
+  margin-top: 110px;
+}
+
+.multiple-apps-headline {
+  width: 500px;
+  height: 280px;
+
+  background-image: url(../../images/power-headline.png);
+  transform: translate(104px, 0);
+}
+
+.multiple-apps-figures {
+  height: 773px;
+}
+
+.multiple-apps-caption {
+  width: 138px;
+  height: 46px;
+
+  background-image: url(../../images/power-multiple-apps-caption.png);
+  transform: translate(703px, -47px);
+}
+
+.arcade {
+  margin-top: 55px;
+}
+
+.arcade-figures {
+  height: 600px;
+}
+
+.arcade-figure {
+  transform: translate(-380px, -90px);
+}
+
+.arcade-caption {
+  width: 150px;
+  height: 77px;
+
+  background-image: url(../../images/power-arcade-caption.png);
+  transform: translate(483px, 653px);
+}
+
+.icon--chip {
+  background-image: url(../../images/sprite/sprite-chip.png);
+}
+
+.icon--faster {
+  background-image: url(../../images/sprite/sprite-faster.png);
+}
+
+.create {
+  margin-top: 55px;
+}
+
+.icon--neural {
+  background-image: url(../../images/sprite/sprite-neural.png);
+}
+
+.icon--apps {
+  background-image: url(../../images/sprite/sprite-apps.png);
+}
+
+.icon--battery {
+  background-image: url(../../images/sprite/sprite-battery.png);
+}
+
+.create-figures {
+  height: 772px;
+}
+
+.create-figure {
+  transform: translate(-25px, 50px);
+}
+
+.create-caption {
+  width: 142px;
+  height: 46px;
+
+  background-image: url(../../images/power-create-caption.png);
+  transform: translate(543px, 908px);
+}
