@@ -1,0 +1,85 @@
+.apps {
+  margin-top: 368px;
+}
+
+.apps-headline {
+  width: 500px;
+  height: 264px;
+
+  background-image: url(../../images/apps-headline.png);
+  transform: translate(17px, 0);
+}
+
+.apps-infos {
+  margin: 36px 0 0 82px;
+}
+
+.apps-figures {
+  display: flex;
+  height: 788px;
+}
+
+.apps-figure {
+  position: relative;
+  flex-grow: 1;
+}
+
+.figure-masterclass {
+  transform: translate(578px, -431px);
+}
+
+.figure-masterclass-caption {
+  width: 100px;
+  height: 25px;
+
+  background-image: url(../../images/apps-masterclass-caption.png);
+  transform: translate(26px, 690px);
+}
+
+.figure-adobe {
+  transform: translate(-515px, 85px);
+}
+
+.figure-adobe-caption {
+  width: 105px;
+  height: 24px;
+
+  background-image: url(../../images/apps-adobe-caption.png);
+  transform: translate(544px, 514px);
+}
+
+.figure-fantasian {
+  transform: translate(-103px, 318px);
+}
+
+.figure-fantasian-caption {
+  width: 74px;
+  height: 22px;
+
+  background-image: url(../../images/apps-fantasian-caption.png);
+  transform: translate(24px, 483px);
+}
+
+.figure-books {
+  transform: translate(-133px, -150px);
+}
+
+.figure-books-caption {
+  width: 50px;
+  height: 27px;
+
+  background-image: url(../../images/apps-books-caption.png);
+  transform: translate(397px, 707px);
+}
+
+.figure-goodnotes {
+  transform: translate(-93px, 68px);
+}
+
+.figure-goodnotes-caption {
+  width: 99px;
+  height: 26px;
+
+  background-image: url(../../images/apps-goodnotes-caption.png);
+  transform: translate(24px, 690px);
+}
