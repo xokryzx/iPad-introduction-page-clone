@@ -1,0 +1,51 @@
+.wireless {
+  margin-top: 202px;
+}
+
+.wireless-headline {
+  width: 730px;
+  height: 330px;
+
+  background-image: url(../../images/wireless-headline.png);
+  transform: translate(104px, 0);
+}
+
+.facetime-figures {
+  height: 773px;
+}
+
+.facetime-figure {
+  transform: translate(-68px, 0);
+}
+
+.facetime-caption {
+  width: 139px;
+  height: 46px;
+
+  background-image: url(../../images/wireless-facetime-caption.png);
+  transform: translate(843px, -49px);
+}
+
+.icon--download {
+  background-image: url(../../images/sprite/sprite-download.png);
+}
+
+.icon--wifi {
+  background-image: url(../../images/sprite/sprite-wifi.png);
+}
+
+.icon--lte {
+  background-image: url(../../images/sprite/sprite-lte.png);
+}
+
+.files-figure {
+  transform: translate(34px, -34px);
+}
+
+.files-caption {
+  width: 127px;
+  height: 46px;
+
+  background-image: url(../../images/wireless-files-caption.png);
+  transform: translate(96px, 639px);
+}
