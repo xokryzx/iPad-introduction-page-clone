@@ -65,6 +65,12 @@ p {
   line-height: 1.6;
 }
 
+sup {
+  margin-right: 6px;
+  font-size: 0.7em;
+  vertical-align: top;
+}
+
 .inner {
   position: relative;
   max-width: 1020px;
