@@ -1,0 +1,33 @@
+.footer {
+  background-color: var(--color-section);
+}
+
+.purchase {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+
+  padding: 76px 0;
+  text-align: center;
+}
+
+.purchase-icon {
+  width: 56px;
+  height: 56px;
+  margin: 0 auto 10px;
+}
+
+.purchase-headline {
+  margin-bottom: 8px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.purchase-desc {
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+.link.purchase-link {
+  font-size: 14px;
+}
