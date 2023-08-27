@@ -13,6 +13,7 @@
 @import './components/ar.css';
 @import './components/environment.css';
 @import './components/shop.css';
+@import './components/trade.css';
 @import './components/sprite.css';
 
 * {
