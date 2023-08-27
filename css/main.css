@@ -14,6 +14,7 @@
 @import './components/environment.css';
 @import './components/shop.css';
 @import './components/trade.css';
+@import './components/compare.css';
 @import './components/sprite.css';
 
 * {
