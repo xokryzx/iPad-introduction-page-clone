@@ -50,3 +50,44 @@
   font-size: 11px;
   line-height: 1.5;
 }
+
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
+  margin: 20px 0;
+}
+
+.breadcrumbs-link {
+  position: relative;
+  color: var(--color-font-darkgray);
+  font-size: 12px;
+}
+
+.breadcrumbs-apple {
+  width: 16px;
+  height: 16px;
+  background-image: url(../../images/path-apple.svg);
+}
+
+.breadcrumbs-link::after {
+  content: '';
+  width: 8px;
+  height: 18px;
+  background-image: url(../../images/path-div.svg);
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: -18px;
+  margin: auto;
+}
+
+.breadcrumbs-link:last-child:after {
+  display: none;
+}
+
+.breadcrumbs-link:hover {
+  text-decoration: underline;
+}
