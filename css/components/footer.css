@@ -91,3 +91,39 @@
 .breadcrumbs-link:hover {
   text-decoration: underline;
 }
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-between;
+
+  height: 344px;
+  margin-bottom: 40px;
+}
+
+.map {
+  margin-top: 24px;
+}
+
+.map:nth-child(6) {
+  padding-bottom: 100px;
+}
+
+.map-title {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.map-list {
+  margin-top: 12px;
+  font-size: 12px;
+}
+
+.map-link {
+  color: var(--color-font-darkgray);
+}
+
+.map-link:hover {
+  text-decoration: underline;
+}
