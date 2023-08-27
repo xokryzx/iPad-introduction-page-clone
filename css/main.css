@@ -71,6 +71,10 @@ sup {
   vertical-align: top;
 }
 
+main {
+  overflow-x: hidden;
+}
+
 .inner {
   position: relative;
   max-width: 1020px;
