@@ -11,6 +11,7 @@
 @import './components/privacy.css';
 @import './components/accessibility.css';
 @import './components/ar.css';
+@import './components/environment.css';
 @import './components/sprite.css';
 
 * {

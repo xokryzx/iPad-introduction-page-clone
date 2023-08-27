@@ -1,0 +1,21 @@
+.environment {
+  padding: 20px 20px 0;
+  background-color: var(--color-section);
+  text-align: center;
+}
+
+.environment-inner {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 990px;
+  margin: auto;
+}
+
+.environment-icon {
+  margin: auto;
+}
+
+.environment-title {
+  color: #03a10e;
+}
