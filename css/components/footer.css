@@ -127,3 +127,56 @@
 .map-link:hover {
   text-decoration: underline;
 }
+
+.shopping-methods {
+  color: var(--color-font-darkgray);
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.shopping-methods-link {
+  color: var(--color-link);
+}
+
+.shopping-methods-link:hover {
+  text-decoration: underline;
+}
+
+.legal {
+  display: flex;
+  gap: 50px;
+
+  margin-top: 10px;
+  padding: 10px 0 40px;
+  border-top: 1px solid var(--color-border);
+
+  font-size: 12px;
+  color: var(--color-font-darkgray);
+}
+
+.legal-menu {
+  flex-grow: 1;
+
+  display: flex;
+  gap: 21px;
+}
+
+.legal-list {
+  position: relative;
+}
+
+.legal-list::after {
+  content: '|';
+  color: var(--color-border);
+
+  position: absolute;
+  right: -11px;
+}
+
+.legal-list:last-child:after {
+  display: none;
+}
+
+.legal-link:hover {
+  text-decoration: underline;
+}
