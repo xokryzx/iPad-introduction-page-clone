@@ -1,6 +1,6 @@
 export default [
   {
-    thumbnail: '../../images/compare-ipad-pro.png',
+    thumbnail: './images/compare-ipad-pro.png',
     colors: ['#68696D', '#E2E3E5'],
     name: 'iPad Pro',
     tagline: '궁극의 iPad란<br />이런 것.',
@@ -8,7 +8,7 @@ export default [
     url: '/ipad-pro/',
   },
   {
-    thumbnail: '../../images/compare-ipad-air.png',
+    thumbnail: './images/compare-ipad-air.png',
     colors: ['#68696D', '#E2E3E5', '#E8D2CE', '#B9B8D1', '#88AEBF'],
     name: 'iPad Air',
     tagline: '강력하다. 다채롭다.<br />경이롭다.',
@@ -16,7 +16,7 @@ export default [
     url: '/ipad-air/',
   },
   {
-    thumbnail: '../../images/compare-ipad-10-2.png',
+    thumbnail: './images/compare-ipad-10-2.png',
     colors: ['#68696D', '#E2E3E5'],
     name: 'iPad',
     tagline: '만족스러운 성능.<br />기분 좋은 가격.',
@@ -24,7 +24,7 @@ export default [
     url: '/ipad-10.2/',
   },
   {
-    thumbnail: '../../images/compare-ipad-mini.png',
+    thumbnail: './images/compare-ipad-mini.png',
     colors: ['#68696D', '#E2E3E5', '#E8D2CE', '#B9B8D1'],
     name: 'iPad Pro',
     tagline: '메가급 성능.<br />크기만 미니.',
