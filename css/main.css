@@ -163,11 +163,19 @@ main {
 .info {
   max-width: 330px;
   margin-bottom: 24px;
+
+  opacity: 0;
+  transform: translate(0, 100px);
+  transition: 1s;
 }
 
-.info--large {
+.info.info--large {
   max-width: 410px;
-  margin-bottom: 24px;
+}
+
+.info.show {
+  opacity: 1;
+  transform: translate(0, 0);
 }
 
 .info-icon {
